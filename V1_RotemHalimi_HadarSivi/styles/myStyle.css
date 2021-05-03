@@ -1,0 +1,242 @@
+body {
+    direction: rtl;
+    font-family: Calibri;
+    background-color: #FFF1E6;
+}
+
+/*תפריט ניווט*/
+
+#navhead {
+    position: static;
+    top: 0;
+    bottom: 0;
+    background-color: #E1D1C0;
+    width: 100%;
+    /*height: 50px;*/
+    height: 10%;
+}
+
+    #navhead ul {
+        list-style: none;
+    }
+
+        #navhead ul li {
+            display: inline-block;
+            background-color: #E1D1C0;
+            width: 19.5%;
+            text-align: right;
+            height: 10%;
+        }
+
+            #navhead ul li a {
+                display: block;
+                position: static;
+                color: black;
+                font-size: 24px;
+                text-decoration: none;
+                text-align: center;
+                
+            }
+
+    #navhead ul li :hover {
+      
+        background-color: #C3AE93;
+       width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+
+/*הדגשה של העמוד בו נמצאים*/
+.corentpage {
+    background-color: #C3AE93;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+/*קרוסלה*/
+#carousel {
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+#carouselImg {
+    height: 550px;
+}
+
+/*כותרת בקרוסלה*/
+#h1Home {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 65px;
+}
+
+/*שאלה והנחייה*/
+
+#quest {
+    font-size: 40px;
+    color: #7F5539;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#quest2 {
+    font-size: 27px;
+    color: black;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+/*עיגולים*/
+#circles {
+    margin: auto;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 360px;
+    width: 360px;
+    
+    font-weight: bold;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.circleTitle {
+    font-size: 35px;
+    margin-top: 37%;
+}
+
+.moreInfo {
+    font-size: 27px;
+    margin-top: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.circle .moreInfo {
+    display: none;
+}
+
+.circle:hover .circleTitle {
+    display: none;
+}
+
+.circle:hover .moreInfo {
+    /*display: inline;*/
+    display: inherit;
+}
+
+/*עיגול התנגדויות החניך*/
+.circle_resistance {
+    position: absolute;
+    background-color: rgba(236, 200, 175,0.4);
+    color: black;
+    border-style: solid;
+    border-color: #392b18;
+    margin-right: 26%;
+    margin-top: 0;
+}
+
+    .circle_resistance:hover {
+        position: absolute;
+        background-color: rgba(110, 116, 82, 0.8);
+        color: white;
+        border-style: solid;
+        border-color: #392b18;
+        margin-right: 26%;
+        margin-top: 0;
+    }
+
+/*עיגול עומס ולחץ*/
+.circle_pressure {
+    position: absolute;
+    background-color: rgba(213, 141, 129, 0.4);
+    color: black;
+    border-style: solid;
+    border-color: #392b18;
+    margin-right: 49%;
+    margin-top: 0;
+}
+
+    .circle_pressure:hover {
+        position: absolute;
+        background-color: rgba(110, 116, 82, 0.8);
+        color: white;
+        border-style: solid;
+        border-color: #392b18;
+        margin-right: 49%;
+        margin-top: 0;
+    }
+
+/*עיגול ירידה במוטיבציה*/
+.circle_motivation {
+    background-color: rgba(172, 149, 134, 0.4);
+    color: black;
+    position: absolute;
+    border-style: solid;
+    border-color: #392b18;
+    margin-top: 20%;
+    margin-right: 38%;
+}
+
+    .circle_motivation:hover {
+        background-color: rgba(110, 116, 82, 0.8);
+        color: white;
+        position: absolute;
+        border-style: solid;
+        border-color: #392b18;
+        margin-top: 20%;
+        margin-right: 38%;
+    }
+
+
+/*עיצוב עמודים*/
+
+#h1Index {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #392b18;
+    margin-top: 10px;
+}
+
+#p_index {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.startLearn {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/*עמוד אודות*/
+
+#p_about{
+    font-size: 28px;
+    margin-top: 26px;
+    font-weight: bold;
+}
+
+#about{
+    text-align: center;
+    /*margin-top: 15px;*/
+    margin-bottom: 5%;
+}
+
+
+#about_hit {
+    border: 3px solid black;
+    padding-bottom: 26px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
